@@ -1,0 +1,13 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.useAliasesForRenames": true,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "typescript.tsserver.maxTsServerMemory": 2304,
+  "typescript.tsserver.watchOptions": {
+    "watchDirectory": "useFsEvents",
+    "watchFile": "useFsEventsOnParentDirectory",
+    "fallbackPolling": "dynamicPriorityPolling"
+  },
+  "vsintellicode.typescript.completionsEnabled": true,
+  "god.tsconfig": "tsconfig.json"
+}
