@@ -21,6 +21,8 @@ export default function AuthProvider({
       domain={domain}
       clientId={clientId}
       redirectUri={window.location.origin}
+      // audience={}
+      scope='read:users'
       onRedirectCallback={onRedirect}
       cacheLocation='localstorage'
     >

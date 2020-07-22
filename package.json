@@ -30,9 +30,14 @@
   },
   "devDependencies": {
     "@types/fusioncharts": "^3.11.5",
+    "@types/history": "^4.7.6",
     "@types/query-string": "^6.3.0",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.1"
+  },
+  "resolutions": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "eslintConfig": {
     "extends": "react-app"

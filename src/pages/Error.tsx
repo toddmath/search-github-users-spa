@@ -8,21 +8,27 @@ const Wrapper = styled.section`
   place-items: center;
   background: var(--clr-primary-10);
   text-align: center;
+
   h1 {
     font-size: 10rem;
   }
-  h3 {
+
+  h3,
+  pre {
     color: var(--clr-grey-3);
     margin-bottom: 1.5rem;
   }
 `
 
-// interface Props {}
+interface Props {
+  message: string
+}
 
-export default function Error(): ReactElement {
+export default function Error({ message }: Props): ReactElement {
   return (
     <Wrapper>
-      <h2>Error Page</h2>
+      <h1>Oops...</h1>
+      <pre>{JSON.stringify(message, null, 2)}</pre>
     </Wrapper>
   )
 }

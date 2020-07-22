@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import { BrowserRouter as Router } from "react-router-dom"
 
 // import { GithubProvider } from 'context/context'
+// import { history } from 'utils'
 import { AuthProvider } from "context"
 import App from "./App"
 import * as serviceWorker from "./serviceWorker"
