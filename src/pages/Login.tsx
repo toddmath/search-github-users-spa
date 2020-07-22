@@ -20,9 +20,9 @@ const Wrapper = styled.section`
   }
 `
 
-interface Props {}
+// interface Props {}
 
-export default function Login({}: Props): ReactElement {
+export default function Login(): ReactElement {
   return (
     <Wrapper>
       <h2>Login Page</h2>

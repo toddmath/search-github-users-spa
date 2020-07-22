@@ -2,9 +2,9 @@ import React, { ReactElement } from "react"
 // import { Info, Repos, User, Search, Navbar } from 'components'
 // import { GithubContext } from 'context/context';
 
-interface Props {}
+// interface Props {}
 
-export default function DashBoard({}: Props): ReactElement {
+export default function DashBoard(): ReactElement {
   return (
     <main>
       <h2>Dashboard Page</h2>

@@ -1,12 +1,12 @@
 import React, { memo } from "react"
 
 // import { GithubContext } from 'context/context'
-import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from "components/Charts"
+// import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from "components/Charts"
 import { Wrapper } from "./Repos.styles"
 
-interface Props {}
+// interface Props {}
 
-export default memo(function Repos({}: Props) {
+export default memo(function Repos() {
   return (
     <Wrapper>
       <h2>repos component</h2>

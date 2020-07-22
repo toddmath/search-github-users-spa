@@ -17,9 +17,9 @@ const Wrapper = styled.section`
   }
 `
 
-interface Props {}
+// interface Props {}
 
-export default function Error({}: Props): ReactElement {
+export default function Error(): ReactElement {
   return (
     <Wrapper>
       <h2>Error Page</h2>

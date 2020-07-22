@@ -4,6 +4,7 @@ import React from "react"
 
 interface Props {}
 
+// eslint-disable-next-line no-empty-pattern
 export default function PrivateRoute({}: Props) {
   return <h2>private route component</h2>
 }
